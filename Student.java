@@ -97,3 +97,23 @@ public static void threeLine() {
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         }
+
+
+    }
+
+    public static void assignLunchMultiple(int gradeLevel, double gradePointAvg)
+        String lunchPeriod;
+        // AND, OR, NOT -- Boolean Operators
+        // && -- AND
+        // || -- OR
+        // ! -- NOT
+
+        if (gradeLevel == 9){
+            lunchPeriod = "First Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradLevel == 10){
+            lunchPeriod = "First Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
